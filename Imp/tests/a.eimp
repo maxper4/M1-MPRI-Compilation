@@ -1,0 +1,13 @@
+function main {
+0 params
+0 locals
+  $t3 <- 1;
+  $s3 <- $t3;
+  $t3 <- 64;
+  $s4 <- $t3;
+  $t4 <- $s3;
+  $t3 <- $s4;
+  $t3 <- $t4 + $t3;
+  putchar $t3;
+}
+

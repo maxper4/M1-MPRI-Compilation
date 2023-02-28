@@ -1,0 +1,10 @@
+function main {
+1 params
+0 locals
+  push $t2;
+  $t4 <- 6;
+  $t3 <- 7;
+  $t3 <- $t4 * $t3;
+  putchar $t3;
+}
+

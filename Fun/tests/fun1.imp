@@ -1,0 +1,15 @@
+var res_2;
+var t_1;
+var f_0;
+
+function fun_0(param_x,closure) {
+  return((6*param_x));
+}
+
+main {
+  t_1 = malloc((1*4));
+  t_1[0] = &fun_0;
+  f_0 = t_1;
+  res_2 = (*f_0[0])(7,f_0);
+  print_int(res_2);
+}

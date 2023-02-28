@@ -1,0 +1,13 @@
+function main(args) {
+  var i;
+  var p;
+
+  i = 0;
+  p = 65;
+  while ((i < 5)) {
+    i = (i(+1));
+    putchar(p);
+    p = (p(+1));
+  }
+}
+

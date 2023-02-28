@@ -1,0 +1,16 @@
+function main(args) {
+  var #2;
+  var #1;
+  var #0;
+  var res_0;
+  var res_1;
+
+  push #2; {7}
+  #1 <- 65; {5}
+  *res_0 <- #1; {6}
+  #0 <- 66; {3}
+  *res_1 <- #0; {4}
+  putchar res_0; {2}
+  putchar res_1; {1}
+}
+

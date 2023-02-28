@@ -1,0 +1,9 @@
+function main(args) {
+    test();
+}
+
+function test(){
+    var i;
+    i = 65;
+    putchar(i);
+}

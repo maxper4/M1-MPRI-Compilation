@@ -1,0 +1,14 @@
+var global;
+
+function main(args) {
+  var #2;
+  var #1;
+  var #0;
+
+  push #2; {5}
+  #1 <- 65; {3}
+  *global <- #1; {4}
+  #0 <- *global; {1}
+  putchar #0; {2}
+}
+

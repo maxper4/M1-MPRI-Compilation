@@ -1,0 +1,23 @@
+function main {
+1 params
+0 locals
+  push $fp;
+  push $ra;
+  $fp <- $sp(+8);
+  $sp <- $sp(+0);
+  call test;
+  pop 0;
+}
+
+function test {
+0 params
+0 locals
+  push $fp;
+  push $ra;
+  $fp <- $sp(+8);
+  $sp <- $sp(+-4);
+  $t4 <- 65;
+  $s3 <- $t4;
+  putchar $s3;
+}
+

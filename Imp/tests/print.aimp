@@ -1,0 +1,9 @@
+function main(arg) {
+  var #1;
+  var #0;
+
+  push #1; {3}
+  #0 <- 65; {1}
+  putchar #0; {2}
+}
+

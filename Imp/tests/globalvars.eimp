@@ -1,0 +1,12 @@
+var global;
+
+function main {
+1 params
+0 locals
+  push $t2;
+  $t3 <- 65;
+  *global <- $t3;
+  $t3 <- *global;
+  putchar $t3;
+}
+

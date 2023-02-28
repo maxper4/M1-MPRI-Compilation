@@ -1,0 +1,28 @@
+var res_4;
+var res_3;
+var g_2;
+var t_1;
+var f_0;
+
+function fun_0(param_x,closure) {
+  var t_0;
+
+  t_0 = malloc((2*4));
+  t_0[0] = &fun_1;
+  t_0[1] = param_x;
+  return(t_0);
+}
+
+function fun_1(param_y,closure) {
+  return((closure[1]*param_y));
+}
+
+main {
+  t_1 = malloc((1*4));
+  t_1[0] = &fun_0;
+  f_0 = t_1;
+  res_3 = (*f_0[0])(6,f_0);
+  g_2 = res_3;
+  res_4 = (*g_2[0])(7,g_2);
+  print_int(res_4);
+}

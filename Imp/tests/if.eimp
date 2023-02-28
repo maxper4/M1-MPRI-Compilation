@@ -1,0 +1,21 @@
+function main {
+1 params
+0 locals
+  push $t2;
+  $t4 <- 1;
+  if ($t4) {
+    $t2 <- 0;
+    if ($t2) {
+      $t2 <- 66;
+      $s3 <- $t2;
+    } else {
+      $t2 <- 65;
+      $s3 <- $t2;
+    }
+  } else {
+    $t4 <- 67;
+    $s3 <- $t4;
+  }
+  putchar $s3;
+}
+

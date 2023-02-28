@@ -1,0 +1,7 @@
+var global;
+
+function main(args) {
+  global = 65;
+  putchar(global);
+}
+

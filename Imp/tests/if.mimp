@@ -1,0 +1,15 @@
+function main(args) {
+  var i;
+
+  if (1) {
+    if (0) {
+      i = 66;
+    } else {
+      i = 65;
+    }
+  } else {
+    i = 67;
+  }
+  putchar(i);
+}
+

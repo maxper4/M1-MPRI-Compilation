@@ -1,0 +1,7 @@
+function main(args) {
+  var res_0;
+
+  res_0 = 65;
+  putchar(res_0);
+}
+

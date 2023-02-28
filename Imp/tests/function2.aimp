@@ -1,0 +1,22 @@
+function main(args) {
+  push $fp; {3}
+  push $ra; {4}
+  $fp <- $sp(+8); {5}
+  $sp <- $sp(+0); {6}
+  call test (0); {1}
+  pop 0; {2}
+}
+
+function test() {
+  var #0;
+  var i;
+
+  push $fp; {10}
+  push $ra; {11}
+  $fp <- $sp(+8); {12}
+  $sp <- $sp(+-4); {13}
+  #0 <- 65; {8}
+  *i <- #0; {9}
+  putchar i; {7}
+}
+

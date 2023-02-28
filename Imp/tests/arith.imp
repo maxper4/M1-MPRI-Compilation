@@ -1,0 +1,3 @@
+function main(arg) {
+  putchar ((6*(1+6)));
+}
